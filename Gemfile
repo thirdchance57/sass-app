@@ -1,7 +1,12 @@
 source 'https://rubygems.org'
 
+# the 12 core development guidelines for heroku to compile assets and log standout
+gem 'rails_12factor'
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.0'
+
+# mongoid gem 
 gem 'mongoid', github: 'mongoid/mongoid'
 
 # Use SCSS for stylesheets
